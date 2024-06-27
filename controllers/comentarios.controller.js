@@ -6,7 +6,7 @@ exports.publicarComentario = async function (req, res, next) {
     var Comentario = {
         serviceid: req.body.serviceid,
         nombreservicio: req.body.nombreservicio,
-        alumno: req.body.alumno,
+        cliente: req.body.cliente,
         texto: req.body.texto,
         titulo: req.body.titulo,
         calificacion: req.body.calificacion,

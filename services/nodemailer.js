@@ -8,15 +8,6 @@ const sendMail = async (email, subject, text) => {
         console.log(process.env.MAIL_USER + process.env.MAIL_PW)
 
 
-
-
-
-
-
-
-
-
-
 const transporter = nodemailer.createTransport({
     host: 'smtp.ethereal.email',
     port: 587,

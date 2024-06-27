@@ -8,7 +8,8 @@ const contratoSchema = new mongoose.Schema({
     trim: true,
     required: true
   },
-  alumno: {
+//  alumno: {
+    cliente: {
     type: String,
     trim: true,
     required: true,

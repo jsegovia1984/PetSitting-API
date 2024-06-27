@@ -17,7 +17,8 @@ var ComentarioSchema = new mongoose.Schema({
     required: true,
     trim: true,
   },
-  alumno: {
+//  alumno: {
+    cliente: {
     type: String,
     required: true,
     trim: true,

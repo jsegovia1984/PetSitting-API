@@ -7,7 +7,7 @@ _this = this
 exports.publicarContratacion = async function (contrato) {
     var newContrato = new Contrato({
         userid: contrato.userid,
-        alumno: contrato.alumno,
+        cliente: contrato.cliente,
         servicio: contrato.servicio,
         telefono: contrato.telefono,
         email: contrato.email,

@@ -8,7 +8,7 @@ exports.publicarComentario = async function (comentario) {
     var newComentario = new Comentario({
         serviceid: comentario.serviceid,
         nombreservicio: comentario.nombreservicio,
-        alumno: comentario.alumno,
+        cliente: comentario.cliente,
         texto: comentario.texto,
         titulo: comentario.titulo,
         calificacion: comentario.calificacion,

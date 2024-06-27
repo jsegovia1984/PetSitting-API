@@ -3,7 +3,7 @@ var MensajeService = require('../services/mensajes.service');
 exports.publicarMensaje = async function (req, res, next) {
     var Mensaje = {
         userid: req.body.userid,
-        alumno: req.body.alumno,
+        cliente: req.body.cliente,
         mensaje: req.body.mensaje,
     }
     try {

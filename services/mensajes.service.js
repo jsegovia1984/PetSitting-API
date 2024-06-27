@@ -7,7 +7,7 @@ _this = this
 exports.publicarMensaje = async function (mensaje) {
     var newMensaje = new Mensaje({
         userid: mensaje.userid,
-        alumno: mensaje.alumno,
+        cliente: mensaje.cliente,
         mensaje: mensaje.mensaje,
     })
 

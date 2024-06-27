@@ -3,7 +3,7 @@ var ContratoService = require('../services/contratos.service');
 exports.publicarContratacion = async function (req, res, next) {
     var Contrato = {
         userid: req.body.userid,
-        alumno: req.body.alumno,
+        cliente: req.body.cliente,
         servicio: req.body.servicio,
         telefono: req.body.telefono,
         email: req.body.email,

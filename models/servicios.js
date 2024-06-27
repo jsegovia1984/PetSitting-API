@@ -35,7 +35,7 @@ const servicioSchema = new mongoose.Schema({
     type: String,
     trim: true,
     required: true,
-    enum:["30 Minutos","1 Hora","2 Horas","3 Horas","4 Horas"]
+    enum:["30 Minutos","1 Hora","2 Horas","3 Horas","4 Horas","1 dia"]
   },
   tipo: {
     type: String,
