@@ -96,32 +96,32 @@ BD: MongoDB.
 
 ### Requerimientos funcionales.
 
-#### USUARIOS -> https://
+#### USUARIOS 
 * Registrarse.
 * Iniciar Sesión.
 * Enviar mail para recuperar contraseña.
 * Modificar contraseña.
 * Mostrar usuario por id.
 
-#### SERVICIOS -> https:
+#### SERVICIOS 
 * Publicar.
 * Modificar.
 * Eliminar.
 * Mostrar todos los servicios.
 * Mostrar los servicios .
 
-#### CONTRATOS -> https:
+#### CONTRATOS 
 * Publicar.
 * Modificar.
 * Eliminar.
 * Mostrar los contratos de un prestador de servicios.
 
-#### MENSAJES -> https:
+#### MENSAJES 
 * Publicar.
 * Eliminar.
 * Mostrar los mensajes de un prestador de servicios.
 
-#### COMENTARIOS -> https:
+#### COMENTARIOS 
 * Publicar.
 * Modificar.
 * Eliminar.
