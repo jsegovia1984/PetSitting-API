@@ -8,46 +8,26 @@ const sendMail = async (email, subject, text) => {
         console.log(process.env.MAIL_USER + process.env.MAIL_PW)
 
 
-const transporter = nodemailer.createTransport({
-    host: 'smtp.ethereal.email',
-    port: 587,
-    auth: {
-        user: 'eleonore.denesik@ethereal.email',
-        pass: 'ChxmaQ94wj6nQFVXMu'
-    }
-});
+// const transporter = nodemailer.createTransport({
+  //  host: 'smtp.ethereal.email',
+  //  port: 587,
+  //  auth: {
+   //    user: 'eleonore.denesik@ethereal.email',
+    //   pass: 'ChxmaQ94wj6nQFVXMu'
+//    }
+//});
 
 
-
-
-
-
-
-
-
-
-
-
-
-   //     const transporter = nodemailer.createTransport({
-///            service: 'gmail',
-     //       host: "smtp.gmail.com",
-       //     port: 465,
-         //   secure: true,
-          //  auth: {
-            ///    user: process.env.MAIL_USER,
-          //      pass: process.env.MAIL_PW,
-           // },
-
-   //         tls: {
-//		 rejectUnauthorized: false
-//	    },
-
- 	//	  connectionTimeout: 30000, // 30 segundos
-	//	  greetingTimeout: 30000, // 30 segundos
-	//	  socketTimeout: 30000 // 30 segundos
-
-//        });
+ const transporter = nodemailer.createTransport({
+       service: 'gmail',
+       host: "smtp.gmail.com",
+       port: 465,
+       secure: true,
+       auth: {
+            user: process.env.MAIL_USER,
+            pass: process.env.MAIL_PW,
+            },
+       });
 
 
         const mailOptions = {
